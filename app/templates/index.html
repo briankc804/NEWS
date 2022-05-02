@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+
+        
+    <!-- Content block -->
+    {% block content %}
+
+
+       
+    <!-- Business News  -->
+    <h3> Business News</h3>
+    <ul>
+         {{ macro.displayNewsList(business)}}  
+    </ul>
+
+    <!-- Entertainment News  -->
+    <h3> Entertainment News </h3>
+    <ul>
+        {{ macro.displayNewsList(entertainment)}}
+    </ul>
+    <!-- technology news -->
+    <h3>Technology News</h3>
+    <ul>
+        {{ macro.displayNewsList(technology)}}
+    </ul>
+
+    {% endblock%}
+
