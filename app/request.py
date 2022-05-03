@@ -30,13 +30,13 @@ def get_news(category):
 
 def process_articles(articles_list):
     '''
-    Function  that processes the movie result and transform them to a list of Objects
+    Function  that processes the news result and transform them to a list of Objects
 
     Args:
-        articles_list: A list of dictionaries that contain movie details
+        articles_list: A list of dictionaries that contain news details
 
     Returns :
-        news_results: A list of movie objects
+        news_results: A list of news objects
     '''
     news_results = []
     for news_item in articles_list:
