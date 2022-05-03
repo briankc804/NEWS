@@ -5,3 +5,5 @@ TECHNOLOGIES USED
  .Python
  .Pip
  
+LICENSE
+ .MIT license
