@@ -25,3 +25,6 @@ DEVELOPMENT
     Commit your changes (git commit -am 'Improve feature')
     Push to the branch (git push origin improve-feature)
     Create a Pull Request
+
+REQUIREMENTS
+The project has dependecies that require Flask together with PIP. So make sure you have these installed and working before proceeding. Can also refer from the technologies used below.    
