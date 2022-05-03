@@ -7,3 +7,6 @@ TECHNOLOGIES USED
  
 LICENSE
  .MIT license
+
+CONTACT
+ brianKc804@gmail.com
