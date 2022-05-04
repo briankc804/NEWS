@@ -15,3 +15,18 @@
     {% endfor %}
 
 {% endmacro %}
+
+
+
+{% macro displaySourceList(sources_list) %}
+
+    {% for source in sources_list %}
+       <div>
+           <li> <a href="{{source.url}}">{{source.name}}</a></li>
+       </div>
+
+
+    {% endfor %}     
+
+
+{% endmacro %}

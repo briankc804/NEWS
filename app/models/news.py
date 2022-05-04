@@ -17,8 +17,8 @@ class News:
 
 class Sources:
 
-    def __init__(self,id,name,description,url):
-        self.id =id
+    def __init__(self,name,description,url):
+        
         self.name = name
         self.description = description
         self.url= url
