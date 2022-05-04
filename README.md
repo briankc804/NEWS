@@ -8,7 +8,7 @@ TECHNOLOGIES USED
  .Python3.10
  .Pip Package Manager
  .Flask framework
- .Css(bootsrap)
+ .Css(bootstrap)
 
  
 LICENSE
