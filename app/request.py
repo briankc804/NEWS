@@ -70,4 +70,15 @@ def get_sources():
 
 
     return news_updates
-    
+
+def process_sources(sources_list): 
+
+    sources_results = []
+    for sources_item in sources_list:
+        id = sources_item.get('source')
+        name = sources_item.get('name')
+        description = sources_item.get('description')
+        url =sources_item.get('url')
+
+        sources_object = Sources(id['id'],name,description,url)   
+        sources_results.append(sources_object)
